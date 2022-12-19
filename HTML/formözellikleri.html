@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Form Özellikleri</h1>
+        <form autocomplete="on">
+            Ad Soyad <input type="text" size="10" maxlength="60" 
+            required disabled name="adsoyad" id="adsoyad" autofocus placeholder="ad soyad yaz" > <br>
+            <input type="submit" value="Bitir">
+            <h1>disable formu iptal eder</h1> 
+            <h2>Onay Kodu yazma</h2>
+            <form name="Onay">
+                <input type="checkbox" name="Bülten">Bültene Abone 
+                <br>
+                <input type="checkbox" name="Medeni Durum">Evliyim
+                <br>
+                <input type="submit" value="Abone Ol">
+                <h3>Seçenek Kutusu</h3>
+                <form>
+                    Sevdiğini Sporları Seçiniz <br>
+                    <input type="radio" name="spor" value=""> Futbol 
+                    <input type="radio" name="spor" value="Basketbol"> Basketbol
+                    <input type="radio" name="spor" value="Voleybol"> Voleybol <br>
+                    <input type="submit"> <input type="reset">
+                </form>
+                <h3>Seçenek Listesi</h3>
+                 <form>
+                    Doğum Yeri 
+                    <select name="İller" id="İller">
+                        <option>Adana</option>
+                        <option>Ankara</option>
+                        <option>Antalya</option>
+                        <option>İstanbul</option>
+                        <option selected>Şehir Seçiniz</option>
+                    </select>
+                    <br>
+                    <input type="submit"> <input type="reset">
+                    <h4>Resim İle Form Onaylatma</h4>
+                </form>
+                 <input type="image" src="istockphoto-1308127183-612x612.jpg">
+
+                 </form>
+
+            </form>
+
+
+        </form>
+    </body>
+</html>
